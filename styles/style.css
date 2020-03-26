@@ -131,7 +131,23 @@ button {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2em;
+	align-items: center;
+}
 
+.boxes div {
+	padding: 0 1em;
+	border: 1px solid;
+	width: 25%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	justify-content: center;
+}
 /* Media queries */
 
 @media screen and (min-width: 992px) {
